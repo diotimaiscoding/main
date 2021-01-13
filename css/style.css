@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+header #logo-img{
+position: absolute;
+left: 2vw;
+width: 5vw;
+height: 30px;
+overflow: hidden;
+margin-top: 10px;
+margin-left: 0px;
+background: url("") no-repeat;
+}
+header h1, header a{
+    font-size: 1.4em;
+    margin-top: 0px;
+    margin-left: 5px;
+    text-decoration-line: none;
+}
+header h1{
+    position: absolute;
+    left: 9vw;
+}
+header a:hover{
+    text-decoration-line: none !important;
+    color:aqua;
+}
+header ul{
+    margin: auto;
+    text-align: center;
+}
+header li:hover{
+    background-color: thistle;
+}
+body{
+    background: url("../pic/söderberg_gif-12.gif");
+}
+#main{
+    float: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 40px;
+    width: 80%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.82);
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 1.2em;
+}
+.collapsed{
+    font-size: 0.6em;
+}
+.fas{
+    color:rgba(19, 126, 158, 0.781);
+    font-size: 1.1em;
+}
+.li-names{
+    font-size: 0.5em;
+}
